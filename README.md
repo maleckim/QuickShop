@@ -1,9 +1,14 @@
 Current Screenshots(work in progress)
 
-<img class="d-block w-100 m-auto" src="/demo/Capture.PNG" alt="Second slide" />
-<img class="d-block w-100 m-auto" src="/demo/cart.PNG" alt="Second slide" />
-<img class="d-block w-100 m-auto" src="/demo/item view.PNG" alt="Second slide" />
-<img class="d-block w-100 m-auto" src="/demo/search results.PNG" alt="Second slide" />
+https://github.com/maleckim/QuickShop/tree/master/public/demo
+
+![Image of Something](https://github.com/maleckim/QuickShop/tree/master/public/demo/Capture.PNG)
+
+![Image of Something](https://github.com/maleckim/QuickShop/tree/master/public/demo/cart.PNG)
+
+![Image of Something](https://github.com/maleckim/QuickShop/tree/master/public/demo/item view.PNG)
+
+![Image of Something](https://github.com/maleckim/QuickShop/tree/master/public/demo/search results.PNG)
 
 ## License
 
