@@ -54,9 +54,20 @@
                                 </li>
                             @endif
                         @else
-                           <li class="nav-item align-self-center text-right">
+                        <div class="dropdown align-self-center mr-5">
+                            <button class="btn btn-primary dropdown-toggle"
+                                    type="button" id="dropdownMenu1" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    {{Auth::user()->name}}
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <a class="dropdown-item" href="#!">Action</a>
+                                <a class="dropdown-item" href="#!">Another action</a>
+                            </div>
+                        </div>
+                           <li class="nav-item align-self-center text-right ml-5">
                                 <a href="/cart">
-                                    <img src="https://img.icons8.com/pastel-glyph/45/000000/shopping-cart--v1.png"/>
+                                    <img src="https://img.icons8.com/pastel-glyph/40/000000/shopping-cart--v1.png"/>
                                 </a>
                            </li> 
                         @endguest
