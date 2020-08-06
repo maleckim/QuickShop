@@ -18,8 +18,12 @@ Route::get('/', function () {
 
     $topitems = Item::orderBy('popularity', 'desc')->take(3)->get();
     $recentitem = Cache::get('recent');
-    
-    return view('home', compact('topitems')); 
+
+    if($recentitem){
+        return view('home', compact('topitems'),['recent'=>$recentitem]); 
+    }else{
+        return view('home', compact('topitems')); 
+    }
 });
 
 Auth::routes();
