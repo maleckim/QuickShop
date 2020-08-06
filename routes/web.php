@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Cache;
+use App\Item;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    return view('home');
+    $topitems = Item::orderBy('popularity', 'desc')->take(3)->get();
+    $recentitem = Cache::get('recent');
     
-    
+    return view('home', compact('topitems')); 
 });
 
 Auth::routes();

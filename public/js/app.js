@@ -65867,7 +65867,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Example() {
+function Example(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "carouselExampleIndicators",
     "class": "carousel slide ctop",

@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Example() {
+function Example(props) {
+    
     return (
         <>
         <div id="carouselExampleIndicators" class="carousel slide ctop" data-ride="carousel">
-    <ol class="carousel-indicators">
+            <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
+            </ol>
     <div class="carousel-inner">
         <div class="carousel-item active img-fluid">
             <img class="d-block w-100 fit" src="https://placeimg.com/1080/250/tech" alt="First slide" />
