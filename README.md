@@ -1,3 +1,4 @@
+![demo](public\demo\quickshop.gif)
 <h1>Some screenshots of progress (minimal styling)</h1>
 <label>Home</label>
 <img src='public\demo\Capture.PNG'>

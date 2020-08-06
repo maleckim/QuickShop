@@ -46,12 +46,16 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+@if($recent ?? '')
 <div class="container mt-5">
         <div class="col">
                 <h3>Recently Viewed</h3>
-                <a href="/items/view?item={{$recent}}">
-                <img src="/img/{{$recent}}.png" alt="{{$recent}}" />
+                <a href="/items/view?item={{$recent ?? ''}}">
+                <img src="/img/{{$recent ?? ''}}.png" alt="{{$recent ?? ''}}" />
                 </a>
         </div>
 </div>
+@endif
+
 @endsection
