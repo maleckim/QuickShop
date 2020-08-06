@@ -1,5 +1,5 @@
 <h1>demo</h1>
-<img src='public\demo\quickshop.gif' width='250' height='200'>
+<img src='public\demo\quickshop.gif' width='600' height='300'>
 <h1>Some screenshots of progress (minimal styling)</h1>
 <label>Home</label>
 <img src='public\demo\Capture.PNG'>
