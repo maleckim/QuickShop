@@ -1,4 +1,4 @@
-<h1>demo</h1>
+<h1>demo of progress</h1>
 <img src='public\demo\quickshop.gif' width='1000' height='500'>
 <h1>Some screenshots of progress (minimal styling)</h1>
 <label>Home</label>
